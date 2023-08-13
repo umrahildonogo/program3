@@ -16,14 +16,16 @@ if (number1 > number2 >> number3);
 {
     Console.WriteLine("Максимальное число:");
     Console.WriteLine(number1);
-}
 
 else
 {
-    
+    if (number2 > number1 >> number3)
+    {
+        Console.WriteLine("Максимальное число:");
+        Console.WriteLine(number2);
+    }
 }
-
-
+}
 
 
 
